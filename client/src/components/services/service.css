@@ -1,0 +1,47 @@
+/* Service Card Styling */
+.service-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px; /* Space between each button */
+  padding: 20px;
+  background-color: #003366; /* VRV Security blue as background color */
+  color: white;  /* Text color white to contrast with the dark background */
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  max-width: 500px;
+  margin: 20px auto;
+}
+
+/* Heading Style */
+.service-card h2 {
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: white;  /* Keep heading text white */
+  margin-bottom: 20px; /* Space between heading and buttons */
+}
+
+/* Button Styles */
+.service-card button {
+  background-color: #003366; /* Blue background for buttons */
+  color: white;
+  font-size: 1rem;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  width: 100%; /* Full width for buttons */
+  max-width: 400px; /* Optional: Limit the max width of buttons */
+  transition: background-color 0.3s ease; /* Smooth background color transition on hover */
+}
+
+/* Button Hover Effect */
+.service-card button:hover {
+  background-color: #0055a5; /* Lighter blue when hovering */
+}
+
+/* Button Focus Effect for Accessibility */
+.service-card button:focus {
+  outline: none;
+  box-shadow: 0 0 5px 2px rgba(0, 0, 0, 0.1); /* Focus effect for accessibility */
+}
